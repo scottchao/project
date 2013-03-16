@@ -1,11 +1,16 @@
 {
   "name": "node-example",
   "version": "0.0.1",
-  "dependencies": {
-    "express": "2.5.x"
-  },
-  "engines": {
+  "engines" : {
     "node": "0.8.x",
     "npm": "1.1.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-blah": "2.x"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
   }
 }
